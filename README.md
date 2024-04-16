@@ -56,3 +56,7 @@ The following table summarizes the results of the model after fine-tuning
 | deepseek-math-7b-rl | 500            | CoT          |   67%    |
 | deepseek-math-7b-rl | 1024           | CoT          |   81%    |
 | deepseek-math-7b-rl | 1024           | Few-shot CoT |   80%    |
+## 7. References
+- [ZaloAI Challenge 2023](https://challenge.zalo.ai/portal/elementary-maths-solving)
+- [Elementary-Math-Solving-Zalo-AI-2023](https://github.com/Reasoning-Lab/Elementary-Math-Solving-Zalo-AI-2023)
+- [Deepseek Math](https://github.com/deepseek-ai/DeepSeek-Math)
