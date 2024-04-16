@@ -19,3 +19,13 @@ To rerun the fine-tuning code, you can execute the following command line.
 python main.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name>
 ```
 You can also find the fine-tuned model I've trained at <a href="https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai"><b>[🤗 Models]</b></a>.
+## 4. Inference
+To infer a model with any elementary math multiple-choice question, you can run the following commands.
+> Chain of Thought:
+```
+python inference_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name>
+```
+> Few-shot Chain of Thought:
+```
+python inference_few_shot_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name>
+```
