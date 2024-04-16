@@ -34,7 +34,6 @@ You can absolutely use the model I've fine-tuned for inference as well.
 ```
 python inference_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai
 ```
-```
 > Few-shot Chain of Thought:
 ```
 python inference_few_shot_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai
