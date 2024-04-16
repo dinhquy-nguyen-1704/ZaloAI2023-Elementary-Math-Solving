@@ -57,6 +57,7 @@ The following table summarizes the results of the model after fine-tuning
 | deepseek-math-7b-rl | 1024           | CoT          |   81%    |
 | deepseek-math-7b-rl | 1024           | Few-shot CoT |   80%    |
 ## 7. Limitations
+Deepseek-Math-7B-RL is a powerful LLM model with strong mathematical reasoning capabilities in English, Chinese, and Vietnamese. However, there are still certain drawbacks:
 - With max_new_tokens = 500, there are many sentences in the private dataset where the model doesn't have enough tokens to generate a final answer.
 - With max_new_tokens = 1024, the inference time for each question is quite long, averaging about 1 minute per question.
 ## 8. References
