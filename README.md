@@ -1,4 +1,6 @@
 # ZaloAI2023-Elementary-Math-Solving
+## 1. Introduction
+In this GitHub repository, I present a baseline solution for the Elementary Math Solving task from the ZaloAI Challenge 2023. Leveraging the powerful mathematical reasoning capabilities of the Deepseek-math model, this approach achieves an impressive 80% accuracy on the competition's private test set.
 ## 2. Getting Started
 ```
 git clone https://github.com/dinhquy-nguyen-1704/ZaloAI2023-Elementary-Math-Solving.git
