@@ -37,3 +37,14 @@ python inference_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math
 > Few-shot Chain of Thought:
 ```
 python inference_few_shot_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai
+## 5. Evaluate
+To evaluate the accuracy of the model on the private test set, you can run the following command:
+> Chain of Thought:
+```
+python evaluate_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name> --max_new_tokens <max new tokens>
+```
+> Few-shot Chain of Thought:
+```
+python evaluate_few_shot_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name> --max_new_tokens <max new tokens>
+```
+You can also completely replace my model with yours and give it a try.
