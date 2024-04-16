@@ -48,4 +48,4 @@ python evaluate_cot.py --hf_account <HuggingFace account> --model_hf_name <Huggi
 ```
 python evaluate_few_shot_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name> --max_new_tokens <max new tokens>
 ```
-You can also completely replace my model with yours and give it a try.
+You can also completely replace [my model](https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai) with yours and give it a try.
