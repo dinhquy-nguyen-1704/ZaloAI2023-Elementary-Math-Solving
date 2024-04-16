@@ -56,7 +56,10 @@ The following table summarizes the results of the model after fine-tuning
 | deepseek-math-7b-rl | 500            | CoT          |   67%    |
 | deepseek-math-7b-rl | 1024           | CoT          |   81%    |
 | deepseek-math-7b-rl | 1024           | Few-shot CoT |   80%    |
-## 7. References
+## 7. Limitations
+- With max_new_tokens = 500, there are many sentences in the private dataset where the model doesn't have enough tokens to generate a final answer.
+- With max_new_tokens = 1024, the inference time for each question is quite long, averaging about 1 minute per question.
+## 8. References
 - [ZaloAI Challenge 2023](https://challenge.zalo.ai/portal/elementary-maths-solving)
 - [Elementary-Math-Solving-Zalo-AI-2023](https://github.com/Reasoning-Lab/Elementary-Math-Solving-Zalo-AI-2023)
 - [Deepseek Math](https://github.com/deepseek-ai/DeepSeek-Math)
