@@ -53,6 +53,6 @@ You can also completely replace [my model](https://huggingface.co/quynguyen1704/
 The following table summarizes the results of the model after fine-tuning
 |        Model        | Max_new_tokens | CoT | Few-shot | Accuracy |
 |---------------------|----------------|-----|----------|----------|
-| deepseek-math-7b-rl | 500            | - [x] |          |   67%    |
+| deepseek-math-7b-rl | 500            | [x] |          |   67%    |
 | deepseek-math-7b-rl | 1024           | [x] |          |   81%    |
 | deepseek-math-7b-rl | 1024           | [x] |    [x]   |   80%    |
