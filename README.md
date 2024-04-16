@@ -21,19 +21,11 @@ python main.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace m
 You can also find the fine-tuned model I've trained at <a href="https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai"><b>[🤗 Models]</b></a>.
 ## 4. Inference
 To infer a fine-tuned model with any elementary math multiple-choice question, you can run the following commands.
-### 4.1. Chain of Thought:
+> Chain of Thought:
 ```
 python inference_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name>
 ```
-> e.g.,
-```
-python inference_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai
-```
-### 4.2. Few-shot Chain of Thought:
+> Few-shot Chain of Thought:
 ```
 python inference_few_shot_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name>
-```
-> e.g.,
-```
-python inference_few_shot_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai
 ```
