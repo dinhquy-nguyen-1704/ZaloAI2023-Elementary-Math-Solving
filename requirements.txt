@@ -5,4 +5,6 @@ git+https://github.com/huggingface/peft.git
 git+https://github.com/huggingface/accelerate.git
 loralib
 einops
+dspy-ai
+safetensors
 wandb

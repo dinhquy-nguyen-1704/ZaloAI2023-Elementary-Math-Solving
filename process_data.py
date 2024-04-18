@@ -3,6 +3,7 @@ import tqdm
 from utils.func import generate_and_tokenize_prompt
 from datasets import load_dataset, Dataset
 from utils.generate_prompt import generate_prompt_test, generate_few_shot_prompt
+import ast
 
 def process_data_train(file_path, tokenizer):
 
@@ -13,7 +14,7 @@ def process_data_train(file_path, tokenizer):
 
     for sample in data["data"]:
         try:
-            choices = sample['choices']
+            choices = ast.literal_eval(sample['choices'])
         except:
             break
         explanation = sample['explanation'].strip()
@@ -42,7 +43,7 @@ def process_data_cot(file_path, tokenizer):
 
     for sample in data["data"]:
         try:
-            choices = sample['choices']
+            choices = ast.literal_eval(sample['choices'])
         except:
             break
         question = sample['question']
@@ -67,7 +68,7 @@ def process_data_few_shot_cot(file_path, tokenizer):
 
     for sample in data["data"]:
         try:
-            choices = sample['choices']
+            choices = ast.literal_eval(sample['choices'])
         except:
             break
         question = sample['question']
