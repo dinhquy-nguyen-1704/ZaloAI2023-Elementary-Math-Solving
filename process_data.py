@@ -43,7 +43,7 @@ def process_data_cot(file_path, tokenizer):
 
     for sample in data["data"]:
         try:
-            choices = ast.literal_eval(sample['choices'])
+            choices = sample['choices']
         except:
             break
         question = sample['question']
@@ -68,7 +68,7 @@ def process_data_few_shot_cot(file_path, tokenizer):
 
     for sample in data["data"]:
         try:
-            choices = ast.literal_eval(sample['choices'])
+            choices = sample['choices']
         except:
             break
         question = sample['question']
