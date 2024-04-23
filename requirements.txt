@@ -8,3 +8,4 @@ einops
 dspy-ai
 safetensors
 wandb
+vllm
