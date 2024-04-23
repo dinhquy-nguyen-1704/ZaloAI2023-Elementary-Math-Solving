@@ -33,7 +33,7 @@ def process_data_train(file_path, tokenizer):
     return choices_data
 
 
-def process_data_cot(file_path, tokenizer):
+def process_data_cot(file_path):
 
     # Load the JSON file
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -58,7 +58,7 @@ def process_data_cot(file_path, tokenizer):
     return test_samples
 
 
-def process_data_few_shot_cot(file_path, tokenizer):
+def process_data_few_shot_cot(file_path):
 
     # Load the JSON file
     with open(file_path, 'r', encoding='utf-8') as f:

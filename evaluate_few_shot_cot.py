@@ -61,7 +61,7 @@ def main():
     generation_config.pad_token_id = tokenizer.eos_token_id
     generation_config.eos_token_id = tokenizer.eos_token_id
 
-    test_samples = process_data_few_shot_cot(config.dataset_test, tokenizer)
+    test_samples = process_data_few_shot_cot(config.dataset_test)
 
     results = []
 
