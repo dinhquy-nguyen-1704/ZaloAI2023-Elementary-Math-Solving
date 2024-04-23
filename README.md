@@ -53,11 +53,12 @@ python evaluate_few_shot_cot.py --hf_account <HuggingFace account> --model_hf_na
 You can also completely replace [my model](https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai) with yours and give it a try.
 ## 6. Result
 The following table summarizes the results of the model after fine-tuning
-|        Model        | Max_new_tokens | Prompt       | Accuracy |
-|---------------------|----------------|--------------|----------|
-| deepseek-math-7b-rl | 500            | CoT          |   67%    |
-| deepseek-math-7b-rl | 1024           | CoT          |   82%    |
-| deepseek-math-7b-rl | 1024           | Few-shot CoT |   80%    |
+|        Model        | Max_new_tokens | Prompt       | Note |Accuracy |
+|---------------------|----------------|--------------|------|---------|
+| deepseek-math-7b-rl | 500            | CoT          |      |   67%   |
+| deepseek-math-7b-rl | 1024           | CoT          |      |   82%   |
+| deepseek-math-7b-rl | 1024           | Few-shot CoT |      |   80%   |
+| deepseek-math-7b-rl | 2048           | CoT          | vLLM |   80%   |
 ## 7. Limitations
 Deepseek-Math-7B-RL is a powerful LLM model with strong mathematical reasoning capabilities in English, Chinese, and Vietnamese. However, there are still certain drawbacks:
 - With max_new_tokens = 500, there are many sentences in the private dataset where the model doesn't have enough tokens to generate a final answer.
