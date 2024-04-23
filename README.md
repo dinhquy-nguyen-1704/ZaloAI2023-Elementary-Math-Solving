@@ -56,7 +56,7 @@ The following table summarizes the results of the model after fine-tuning
 |        Model        | Max_new_tokens | Prompt       | Accuracy |
 |---------------------|----------------|--------------|----------|
 | deepseek-math-7b-rl | 500            | CoT          |   67%    |
-| deepseek-math-7b-rl | 1024           | CoT          |   81%    |
+| deepseek-math-7b-rl | 1024           | CoT          |   82%    |
 | deepseek-math-7b-rl | 1024           | Few-shot CoT |   80%    |
 ## 7. Limitations
 Deepseek-Math-7B-RL is a powerful LLM model with strong mathematical reasoning capabilities in English, Chinese, and Vietnamese. However, there are still certain drawbacks:
