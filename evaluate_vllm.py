@@ -15,7 +15,6 @@ def main():
               gpu_memory_utilization=0.99,
               swap_space=4,
               max_model_len=2048,
-              kv_cache_dtype="fp8_e5m2",
               tensor_parallel_size=1)
     
     test_samples = process_data_cot(config.dataset_test)
