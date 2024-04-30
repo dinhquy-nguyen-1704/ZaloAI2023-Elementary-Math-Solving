@@ -62,7 +62,7 @@ You can also evaluate with vLLM, through the model I merged [here](https://huggi
 ```
 python evaluate_vllm.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai-vllm --max_new_tokens 2048
 ```
-## 6. Result
+## 6. Results
 The following table summarizes the results of the model after fine-tuning
 |        Model        | Max_new_tokens | Prompt       | Note |Accuracy |
 |---------------------|----------------|--------------|------|---------|
