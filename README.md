@@ -34,11 +34,11 @@ python inference_few_shot_cot.py --hf_account <HuggingFace account> --model_hf_n
 You can absolutely use the model I've fine-tuned for inference as well.
 > Chain of Thought:
 ```
-python inference_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai
+python inference_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai-v2
 ```
 > Few-shot Chain of Thought:
 ```
-python inference_few_shot_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai
+python inference_few_shot_cot.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai-v2
 ```
 ## 5. Evaluate
 To evaluate the accuracy of the model on the private test set, you can run the following command:
