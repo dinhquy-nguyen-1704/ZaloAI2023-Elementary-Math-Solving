@@ -19,7 +19,7 @@ huggingface-cli login
 wandb login
 ```
 ## 3. Finetune
-I only utilize a dataset of over 1000 samples from the competition to fine-tune the model.
+I only utilize a dataset of over 1000 training samples from the competition to fine-tune the model.
 
 To rerun the fine-tuning code, you can execute the following command line.
 ```
