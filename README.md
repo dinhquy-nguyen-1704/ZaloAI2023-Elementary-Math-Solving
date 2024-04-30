@@ -50,11 +50,13 @@ python evaluate_cot.py --hf_account <HuggingFace account> --model_hf_name <Huggi
 ```
 python evaluate_few_shot_cot.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name> --max_new_tokens <max new tokens>
 ```
+You can also completely replace [my model](https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai-v2) with yours and give it a try.
+
+Additionally, you can also evaluate with vLLM, through the model I merged here. With vLLM, the entire evaluation process with 332 questions in the test set will take about 30 minutes, compared to 3 hours when not using it. However, in return, the quality of the model's answers will be slightly reduced.
 > Chain of Thought with vLLM:
 ```
 python evaluate_vllm.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai-vllm --max_new_tokens 2048
 ```
-You can also completely replace [my model](https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai-v2) with yours and give it a try.
 ## 6. Result
 The following table summarizes the results of the model after fine-tuning
 |        Model        | Max_new_tokens | Prompt       | Note |Accuracy |
