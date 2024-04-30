@@ -1,6 +1,10 @@
 # ZaloAI2023-Elementary-Math-Solving
 ## 1. Introduction
 In this GitHub repository, I present a baseline solution for the Elementary Math Solving task from the ZaloAI Challenge 2023. Leveraging the powerful mathematical reasoning capabilities of the [Deepseek-math](https://huggingface.co/deepseek-ai/deepseek-math-7b-rl) model, this approach achieves an impressive 80% accuracy on the competition's private test set.
+<p align="center">
+  <img width="800" alt="VQA System" src="https://github.com/dinhquy-nguyen-1704/ZaloAI2023-Elementary-Math-Solving/assets/127675330/6d4dd117-d5bc-4ac1-a21c-5bbbca6538e9">
+</p>
+<p align="center">
 ## 2. Getting Started
 ```
 git clone https://github.com/dinhquy-nguyen-1704/ZaloAI2023-Elementary-Math-Solving.git
@@ -20,7 +24,7 @@ To rerun the fine-tuning code, you can execute the following command line.
 ```
 python main.py --hf_account <HuggingFace account> --model_hf_name <HuggingFace model's name>
 ```
-You can also find the fine-tuned model I've trained at <a href="https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai-v2"><b>[🤗 Models]</b></a> and the merged version at <a href="https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai-vllm"><b>[🤗 Models]</b></a>
+You can also find the fine-tuned model I've trained at <a href="https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai-v2"><b>[🤗 Models]</b></a> and the merged version at <a href="https://huggingface.co/quynguyen1704/deepseek-math-7b-rl-zaloai-vllm"><b>[🤗 Models]</b></a>.
 ## 4. Inference
 To infer a fine-tuned model with any elementary math multiple-choice question, you can run the following commands.
 > Chain of Thought:
