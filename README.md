@@ -5,6 +5,7 @@ In this GitHub repository, I present a baseline solution for the Elementary Math
   <img width="800" alt="VQA System" src="https://github.com/dinhquy-nguyen-1704/ZaloAI2023-Elementary-Math-Solving/assets/127675330/6d4dd117-d5bc-4ac1-a21c-5bbbca6538e9">
 </p>
 <p align="center">
+  
 ## 2. Getting Started
 ```
 git clone https://github.com/dinhquy-nguyen-1704/ZaloAI2023-Elementary-Math-Solving.git
