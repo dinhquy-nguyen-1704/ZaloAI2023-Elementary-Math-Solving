@@ -63,7 +63,7 @@ You can also evaluate with vLLM, through the model I merged [here](https://huggi
 python evaluate_vllm.py --hf_account quynguyen1704 --model_hf_name deepseek-math-7b-rl-zaloai-vllm --max_new_tokens 2048
 ```
 ## 6. Results
-The following table summarizes the results of the model after fine-tuning
+The following table summarizes the results of the model after fine-tuning. For questions where the model does not have enough tokens to generate the final answer (A, B, C or D), answer E will be output.
 |        Model        | Max_new_tokens | Prompt       | Note |Accuracy |
 |---------------------|----------------|--------------|------|---------|
 | deepseek-math-7b-rl | 500            | CoT          |      |   67%   |
